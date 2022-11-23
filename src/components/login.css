@@ -1,0 +1,148 @@
+/* label {
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+  }
+  
+  .card-container {
+    padding-top: 50px;
+    max-width: 350px !important;
+    
+  } 
+  
+   .card {
+    background-color: #000000; 
+    padding: 20px 25px 30px;
+    margin: 0 auto 25px;
+    
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  .profile-img-card {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+  } 
+  
+
+
+ */
+
+ .loginpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #23242a;
+ }
+.box{
+    position: relative;
+    width: 380px;
+    height:420px;
+    background: #1c1c1c;
+    border-radius: 8px;
+    overflow: hidden;
+}
+ .box::before
+ {
+    content: '';
+    position:absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height:420px;
+    background: linear-gradient(0deg,transparent,#45f3ff,#45f3ff);
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+ }
+ .box::after
+ {
+    content: '';
+    position:absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height:420px;
+    background: linear-gradient(0deg,transparent,#45f3ff,#45f3ff);
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -3s;
+ }
+ @keyframes animate
+ {
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+ }
+ .forms{
+    position: absolute;
+    inset: 2px;
+    border-radius: 8px;
+    background: #28292d;
+    z-index: 10;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+ }
+ .forms h2{
+    color: #45f3ff;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.1em;
+ }
+ .inputBox{
+    position: relative;
+    width: 320px;
+    margin-top: 40px;
+ }
+ 
+
+ .inputBox span{
+    text-align: center;
+    padding-left: 110px;
+    color: #45f3ff;
+    font-weight: 600;
+ }
+
+ .inputBox Input{
+    background: #45f3ff;
+   padding-top: 10px;
+    padding-left: 100px;
+    
+ }
+
+.buttonBox{
+    padding-top: 20px;
+    padding-left: 110px;
+ }
+ .registerlink{
+   padding-top: 10px;
+   padding-left: 80px;
+   color: #45f3ff;
+   gap: 5px;
+ }
+
+ 
+
+ 
+
+
+
+
+
+

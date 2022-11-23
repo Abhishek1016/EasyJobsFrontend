@@ -1,0 +1,24 @@
+.footerboard{
+    width: 100%;
+    height: 100%;
+   background-color: rgb(1, 0, 70);
+}
+
+.footerboard h1{
+    padding-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    text-decoration: underline;
+}
+.footerboard p{
+    padding-left: 50px;
+    padding-right: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:aliceblue;
+}
+.footerboard h3{
+    color: aliceblue;
+}
+.footerboard button{
+    margin-left: 550px;
+}

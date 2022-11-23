@@ -1,0 +1,24 @@
+.helpboard{
+    width: 100%;
+    height: 100vh;
+   background-color: rgb(1, 0, 70);
+}
+
+.helpboard h1{
+    padding-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    text-decoration: underline;
+}
+.helpboard p{
+    padding-left: 50px;
+    padding-right: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:aliceblue;
+}
+.helpboard h3{
+    color: aliceblue;
+}
+.helpboard button{
+    margin-left: 550px;
+}

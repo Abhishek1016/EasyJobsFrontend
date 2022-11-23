@@ -1,0 +1,32 @@
+
+.jobboard{
+    min-height: 100vh;
+    background: #e7ebff;
+    }
+
+
+img{
+    width: 200px;
+    height:200px
+}
+li{
+    list-style-type: none;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    border-bottom:1px solid #fff;
+}
+
+.jumbotron{
+    padding-left: 250px;
+    color:#0d8000 ;
+}
+
+
+
+
+
+
+
+
+

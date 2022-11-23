@@ -1,0 +1,22 @@
+.termsboard{
+    width: 100%;
+    height: 100%;
+   background-color: rgb(1, 0, 70);
+}
+
+.termsboard h1{
+    padding-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+.termsboard p{
+    padding-left: 50px;
+    padding-right: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:aliceblue;
+}
+.termsboard button{
+    margin-left: 550px;
+}
